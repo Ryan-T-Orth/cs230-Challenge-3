@@ -98,7 +98,7 @@ public class Simulation {
         }
 
 
-        System.out.println("\nMill's Principle of Truth Simulation - 100 Iterations\n");
+        System.out.println("\nMill's Principle of Truth Simulation - 100 Iterations\nCensor : " + CENSOR + "\n");
         System.out.println("Truth High : " + truthHi);
         System.out.println("Truth Low : " + truthLow);
         System.out.println("Truth High + Truth Low : " + (truthHi + truthLow));

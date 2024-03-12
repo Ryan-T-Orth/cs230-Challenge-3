@@ -60,14 +60,14 @@ public class Simulation {
                 for (int j = 0; j < COLS; j++) {
                     int neighborRow = 0;
                     int neighborCol = 0;
-
+                    
                     while (neighborRow == 0 && neighborCol == 0) {
                         if (i == 0) {neighborRow = rand.nextInt(2);} 
-                        else if (i == ROWS) {neighborRow = rand.nextInt(2) - 1;} 
+                        else if (i == ROWS - 1) {neighborRow = rand.nextInt(2) - 1;} 
                         else {neighborRow = rand.nextInt(3) - 1;}
 
                         if (j == 0) {neighborCol = rand.nextInt(2);}
-                        else if (j == COLS) {neighborCol = rand.nextInt(2) - 1;}
+                        else if (j == COLS - 1) {neighborCol = (rand.nextInt(2) - 1);}
                         else {neighborCol = rand.nextInt(3) - 1;}
                     }
 

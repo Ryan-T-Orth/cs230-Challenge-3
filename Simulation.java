@@ -2,6 +2,7 @@ import java.util.Random;
 
 public class Simulation {
     public static void main(String[] args) {
+
         boolean CENSOR = true;
         if (args[0].equals("t")) {CENSOR = true;}
         else if (args[0].equals("f")) {CENSOR = false;}
